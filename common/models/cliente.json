@@ -1,0 +1,30 @@
+{
+  "name": "cliente",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "numeroCasaApto": {
+      "type": "string",
+	  "required": true
+    },
+    "numeroRelogio": {
+      "type": "number",
+	  "required": true
+    },
+    "data": {
+      "type": "date",
+      "required": true
+    },
+    "dataUltima": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
