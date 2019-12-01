@@ -2,5 +2,17 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongoDB": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb+srv://gurizadaFadergs:gurizadaFadergs@mobile-mh16o.mongodb.net/mongodb?retryWrites=true&w=majority",
+    "database": "watercontrol",
+    "password": "gurizadaFadergs",
+    "name": "mongoDB",
+    "user": "gurizadaFadergs",
+    "useNewUrlParser": false,
+    "useUnifiedTopology": true,
+    "connector": "mongodb"
   }
 }
