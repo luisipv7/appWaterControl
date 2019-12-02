@@ -18,6 +18,14 @@
       "type": "date",
       "required": true
     },
+    "codcliente": {
+      "type": "string",
+      "required": true
+    },
+    "numeroleitura": {
+      "type": "number",
+      "required": true
+    },
     "dataUltima": {
       "type": "date",
       "required": true
